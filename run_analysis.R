@@ -19,7 +19,7 @@ subjectTrain = read.table('./train/subject_train.txt',header=FALSE); #imports su
 xTrain       = read.table('./train/x_train.txt',header=FALSE); #imports x_train.txt
 yTrain       = read.table('./train/y_train.txt',header=FALSE); #imports y_train.txt
 
-# Assigin column names to the data imported above
+# Assign column names to the data imported above
 colnames(activityType)  = c('activityId','activityType');
 colnames(subjectTrain)  = "subjectId";
 colnames(xTrain)        = features[,2]; 
